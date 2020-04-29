@@ -1,0 +1,6 @@
+Info (10281): Verilog HDL Declaration information at rc4.v(23): object "HEX0" differs only in case from object "hex0" in the same scope
+Info (10281): Verilog HDL Declaration information at rc4.v(24): object "HEX1" differs only in case from object "hex1" in the same scope
+Info (10281): Verilog HDL Declaration information at rc4.v(25): object "HEX2" differs only in case from object "hex2" in the same scope
+Info (10281): Verilog HDL Declaration information at rc4.v(26): object "HEX3" differs only in case from object "hex3" in the same scope
+Info (10281): Verilog HDL Declaration information at rc4.v(27): object "HEX4" differs only in case from object "hex4" in the same scope
+Info (10281): Verilog HDL Declaration information at rc4.v(28): object "HEX5" differs only in case from object "hex5" in the same scope

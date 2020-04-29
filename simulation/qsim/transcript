@@ -1,0 +1,36 @@
+# do rc4.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:37:22 on Mar 09,2020
+# vlog -work work rc4.vo 
+# -- Compiling module secretkey
+# 
+# Top level modules:
+# 	secretkey
+# End time: 16:37:22 on Mar 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:37:22 on Mar 09,2020
+# vlog -work work secret_key_tb.vwf.vt 
+# -- Compiling module secretkey_vlg_sample_tst
+# -- Compiling module secretkey_vlg_check_tst
+# -- Compiling module secretkey_vlg_vec_tst
+# 
+# Top level modules:
+# 	secretkey_vlg_vec_tst
+# End time: 16:37:22 on Mar 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "rc4.do" 
+# Start time: 16:37:22 on Mar 09,2020
+# Loading work.secretkey_vlg_vec_tst
+# Loading work.secretkey
+# Loading altera_ver.dffeas
+# Loading work.secretkey_vlg_sample_tst
+# Loading work.secretkey_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# Simulation passed !
+# ** Note: $finish    : secret_key_tb.vwf.vt(417)
+#    Time: 1 us  Iteration: 0  Instance: /secretkey_vlg_vec_tst/tb_out
+# End time: 16:37:23 on Mar 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
